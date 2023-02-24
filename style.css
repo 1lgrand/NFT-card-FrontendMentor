@@ -45,6 +45,10 @@ img{
     padding-left: 2rem;
 }
 
+#title:hover{
+    color: var(--Cyan);
+}
+
 #par{
     padding-top: 1rem;
     padding-left: 2rem;
@@ -57,4 +61,12 @@ img{
 .infos{
     display: flex;
     justify-content: space-around;
+}
+
+.price{
+    color: var(--custon-cyan);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    font-weight: 600;
 }
